@@ -6,7 +6,7 @@ living in san francisco · been online since '97 · passionate for building AI t
 
 ## 🏗 systems & hardware
 
-- **[cli-disable-mic](https://github.com/yigitkonur/cli-disable-mic)** — stop airpods from stealing your mac's microphone — coreaudio daemon, zero cpu
+- **[cli-fix-my-mic](https://github.com/yigitkonur/cli-fix-my-mic)** — stop airpods from stealing your mac's microphone — coreaudio daemon, zero cpu
 - **[lib-osmo-ble](https://github.com/yigitkonur/lib-osmo-ble)** — reverse-engineered dji osmo pocket 3 ble — duml binary protocol, gimbal control
 - **[cli-batch-requester](https://github.com/yigitkonur/cli-batch-requester)** — 10k+ req/s batch api client for llm endpoints — rust, async, load-balanced
 - **[proxy-http-forward](https://github.com/yigitkonur/proxy-http-forward)** — http/https forward proxy in go — fasthttp, prometheus, no fingerprint
