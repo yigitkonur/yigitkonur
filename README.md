@@ -21,7 +21,7 @@ living in san francisco · been online since '97 · passionate for building AI t
 - **[cli-bulk-caller](https://github.com/yigitkonur/cli-bulk-caller)** — bulk outbound calls with automatic whisper transcription via telnyx
 - **[cli-finetune-dataset](https://github.com/yigitkonur/cli-finetune-dataset)** — weighted category-balanced dataset builder for llm fine-tuning
 - **[api-llm-ocr](https://github.com/yigitkonur/api-llm-ocr)** — pdf to markdown using vision llms — tables, layouts, and structure preserved
-- **[notebook-hdbscan](https://github.com/yigitkonur/notebook-hdbscan)** — cluster text embeddings with dbscan and hdbscan — parameter sweep, excel export
+- **[notebook-hdbscan](https://github.com/yigitkonur/notebook-hdbscan)** — cluster text embeddings with dbscan/hdbscan — parameter sweep, excel export
 
 ## others
 
