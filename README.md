@@ -6,24 +6,24 @@ san francisco · been online since '97 · building ai tools
 
 ## 🏗 systems & hardware
 
+- **[lib-osmo-ble](https://github.com/yigitkonur/lib-osmo-ble)** — reverse-engineered the ble protocol for dji osmo pocket 3 — full duml binary protocol, gimbal control, no app needed
 - **[cli-batch-requester](https://github.com/yigitkonur/cli-batch-requester)** — 10k+ req/s batch api client for llm endpoints — rust, async, load-balanced
 - **[proxy-http-forward](https://github.com/yigitkonur/proxy-http-forward)** — high-performance http/https forward proxy in go — fasthttp, prometheus, zero fingerprint
-- **[lib-osmo-ble](https://github.com/yigitkonur/lib-osmo-ble)** — reverse-engineered ble protocol for dji osmo pocket 3 — node.js, no app needed
+- **[proxy-http-cache](https://github.com/yigitkonur/proxy-http-cache)** — transparent http cache proxy with redis — deduplicate api calls, save costs
 - **[tauri-plugin-key-intercept](https://github.com/yigitkonur/tauri-plugin-key-intercept)** — tauri plugin to intercept macos system shortcuts via cgeventtap
 - **[cli-disable-mic](https://github.com/yigitkonur/cli-disable-mic)** — stop airpods from stealing your mac's microphone — coreaudio daemon, zero cpu
-- **[proxy-http-cache](https://github.com/yigitkonur/proxy-http-cache)** — transparent http cache proxy with redis — deduplicate api calls, save costs
-- **[cli-dataflow-decompress](https://github.com/yigitkonur/cli-dataflow-decompress)** — bulk decompress files in gcs — apache beam pipeline, java + python
 - **[alfred-menubar-pin](https://github.com/yigitkonur/alfred-menubar-pin)** — pin a reminder to your macos menu bar with alfred and bitbar
+- **[cli-dataflow-decompress](https://github.com/yigitkonur/cli-dataflow-decompress)** — bulk decompress files in gcs — apache beam pipeline, java + python
 
 ## 🤖 ai & llm
 
 - **[api-llm-ocr](https://github.com/yigitkonur/api-llm-ocr)** — pdf to markdown using vision llms — tables, layouts, and structure preserved
+- **[cli-localize](https://github.com/yigitkonur/cli-localize)** — ai-powered localization cli — srt, json, po, xml, arb with token-aware batching
+- **[cli-subtitle-linter](https://github.com/yigitkonur/cli-subtitle-linter)** — netflix-compliant subtitle fixer — syllable-weighted timing, auto line balancing
 - **[cli-continues](https://github.com/yigitkonur/cli-continues)** — resume any ai coding session in another tool — claude code, copilot, gemini, codex, cursor
 - **[cli-bulk-caller](https://github.com/yigitkonur/cli-bulk-caller)** — bulk outbound calls with automatic whisper transcription via telnyx
-- **[cli-localize](https://github.com/yigitkonur/cli-localize)** — ai-powered localization cli — srt, json, po, xml, arb with token-aware batching
 - **[notebook-hdbscan](https://github.com/yigitkonur/notebook-hdbscan)** — cluster text embeddings with dbscan and hdbscan — parameter sweep, excel export
 - **[cli-finetune-dataset](https://github.com/yigitkonur/cli-finetune-dataset)** — weighted category-balanced dataset builder for llm fine-tuning
-- **[cli-subtitle-linter](https://github.com/yigitkonur/cli-subtitle-linter)** — netflix-compliant subtitle fixer — syllable-weighted timing, auto line balancing
 
 ## 🔌 mcp servers
 
@@ -48,13 +48,13 @@ reference implementations for every mcp transport pattern:
 ## ⚙️ n8n ecosystem
 
 - **[n8n-cli](https://github.com/yigitkonur/n8n-cli)** — full cli for n8n — manage workflows, validate json, diff, audit, all from terminal
-- **[n8n-ffmpeg-stack](https://github.com/yigitkonur/n8n-ffmpeg-stack)** — n8n with ffmpeg and caddy ssl — docker compose, ready to deploy
 - **[n8n-schema-generator](https://github.com/yigitkonur/n8n-schema-generator)** — auto-generated json schemas for every n8n node — hourly updates, validation api
 - **[n8n-workflow-validator](https://github.com/yigitkonur/n8n-workflow-validator)** — validate n8n workflows using the actual n8n engine — catches what schemas miss
 - **[n8n-node-boilerplate](https://github.com/yigitkonur/n8n-node-boilerplate)** — ai-optimized starter kit for building n8n community nodes
 - **[n8n-nodes-craft](https://github.com/yigitkonur/n8n-nodes-craft)** — n8n community nodes for craft docs — blocks, tasks, collections, search
 - **[n8n-nodes-latitude](https://github.com/yigitkonur/n8n-nodes-latitude)** — n8n node for latitude.so — run prompts, chat, and log conversations
 - **[n8n-workflows-craft](https://github.com/yigitkonur/n8n-workflows-craft)** — 42 n8n workflows connecting craft docs with ai, rag, analytics, and more
+- **[n8n-ffmpeg-stack](https://github.com/yigitkonur/n8n-ffmpeg-stack)** — n8n with ffmpeg and caddy ssl — docker compose, ready to deploy
 
 ## 🦕 deno sdks
 
@@ -66,25 +66,34 @@ reference implementations for every mcp transport pattern:
 ## writing
 
 - **[mcp server architecture: state management, security & tool orchestration](https://zeo.org/resources/blog/mcp-server-architecture-state-management-security-tool-orchestration)** + two more on observability and safety
-- **[blog.yigitkonur.com](https://blog.yigitkonur.com)** — nfs vs smb for dev envs, claude code ssh remote, auto-approve plan mode, etc.
+- **[awesome-webmcp](https://github.com/webmcpnet/awesome-webmcp/)** — curated list of webmcp resources — the new web standard that lets websites expose structured tools for ai agents
+- **[auto-approve claude code plan mode via permissionrequest](https://blog.yigitkonur.com/auto-approve-claude-code-plan-mode-via-permissionrequest)** — hook into claude code's permission system to skip plan approvals
+- **[using claude code's native ssh remote on a mac mini](https://blog.yigitkonur.com/using-claude-codes-new-native-ssh-remote-on-a-mac-mini-darwin)** — run claude code on a headless mac mini over ssh
+- **[mac-to-mac file system: nfs is faster than native smb for dev env](https://blog.yigitkonur.com/mac-to-mac-file-system-nfs-is-faster-than-native-smb-for-dev-env)** — benchmarks and setup for nfs over smb on macos dev environments
+- **[teach your ai to use n8n code node / js expressions](https://www.reddit.com/r/n8n/comments/1huce7n/teach_your_ai_to_use_n8n_code_node_js_expressions/)** — comprehensive system prompt for ai-assisted n8n workflow building
+- **[yandex ranking factors leaked](https://www.reddit.com/r/TechSEO/comments/10neprk/yandex_ranking_factors_are_leaked_spreadsheet/)** — reverse-engineered 2,000+ leaked yandex ranking signals into a structured, business-ready spreadsheet
+- **[the mechanical keyboard enthusiast's handbook](https://www.reddit.com/r/MechanicalKeyboards/comments/15dol50/the_mechanical_keyboard_enthusiasts_handbook_a/)** — diy guide covering switches, pcbs, firmware, and sound tuning
+- **[atatürk 4k archive](https://www.reddit.com/r/Turkey/comments/17jq86h/atat%C3%BCrk%C3%BCn_ai_ile_4kya_iyile%C5%9Ftirilmi%C5%9F/)** — 1,100+ atatürk photos ai-upscaled to 4k and colorized — free at ataturk4k.com
+- **[clickhouse benchmark](https://benchmark.clickhouse.com/)** — contributed benchmarks to clickhouse's official hardware performance comparison
+- **[yo who even is yigit?](https://blog.yigitkonur.com/yo-who-even-is-yigit)** — the long version
 
 ## talks
 
 - [clickhouse](https://clickhouse.com/videos/how-we-used-clickhouse-to-create-lightning-fast-experiences-at-seodo) — how we used clickhouse for lightning fast experiences at seo.do
-- [search'n stuff antalya](https://www.youtube.com/@searchnstuff/videos) — panel discussion (2025)
 - [digitalzone istanbul](https://www.youtube.com/watch?v=a_OVqZlQT64) — from seo to ai: building tools with claude + gpt (2024)
-- [search'n stuff antalya](https://www.youtube.com/playlist?list=PL5WYuC1ob3wCbOGJqUQilOCoHs_7qb3px) — building tools with claude 3.5 sonnet artifacts (2024)
-- [brick institute](https://www.youtube.com/watch?v=s876vM5SL_A) — prompt engineering techniques for llms (2024)
 - [digitalzone istanbul](https://www.youtube.com/watch?v=dMb1q6yyTW4) — ai-based new generation working culture (2023)
 - [digitalzone istanbul](https://www.youtube.com/watch?v=11GoGouBY2Q) — mastering prompt engineering & ai integration (2023)
 - [digitalzone istanbul](https://www.youtube.com/watch?v=Zwv1BFW2nQ0) — using chatgpt and gpt-3 apis for automation (2023)
-- [consultancy days](https://www.youtube.com/watch?v=TX0PIL9TIOs) — effective use of ai for e-commerce (2023)
 - [digitalzone istanbul](https://www.youtube.com/watch?v=y8On1RaT6Y4) — understanding bigquery for large-scale data (2021)
-- [consultancy days](https://www.youtube.com/watch?v=Ou59MaqlmUM) — what we can learn from search console (2019)
 - [digitalzone istanbul](https://www.youtube.com/watch?v=fv5wO9Ue7mo) — machine learning for search (2018)
-- [brightonseo london](https://www.youtube.com/watch?v=yEwMQ1LQXxk) — connecting apis without coding skills (2017)
-- [consultancy days](https://www.youtube.com/watch?v=dbNfqayHkV8) — seo & ppc team collaboration (2017)
 - [digitalzone istanbul](https://www.youtube.com/watch?v=HhrA9Me8JAQ) — how to measure digital investments (2016)
+- [search'n stuff antalya](https://www.youtube.com/@searchnstuff/videos) — panel discussion (2025)
+- [search'n stuff antalya](https://www.youtube.com/playlist?list=PL5WYuC1ob3wCbOGJqUQilOCoHs_7qb3px) — building tools with claude 3.5 sonnet artifacts (2024)
+- [brick institute](https://www.youtube.com/watch?v=s876vM5SL_A) — prompt engineering techniques for llms (2024)
+- [consultancy days](https://www.youtube.com/watch?v=TX0PIL9TIOs) — effective use of ai for e-commerce (2023)
+- [consultancy days](https://www.youtube.com/watch?v=Ou59MaqlmUM) — what we can learn from search console (2019)
+- [consultancy days](https://www.youtube.com/watch?v=dbNfqayHkV8) — seo & ppc team collaboration (2017)
+- [brightonseo london](https://www.youtube.com/watch?v=yEwMQ1LQXxk) — connecting apis without coding skills (2017)
 
 ## activity
 
