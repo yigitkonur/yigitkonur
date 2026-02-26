@@ -33,6 +33,13 @@ living in san francisco · been online since '97 · passionate for building AI t
 - **deno sdks** — [serper](https://github.com/yigitkonur/sdk-deno-serper) | [clado](https://github.com/yigitkonur/sdk-deno-clado) | [latitude](https://github.com/yigitkonur/sdk-deno-latitude) | [mem0](https://github.com/yigitkonur/sdk-deno-mem0)
 - **macos & infra** — [menubar-pin](https://github.com/yigitkonur/alfred-menubar-pin) | [dataflow-decompress](https://github.com/yigitkonur/cli-dataflow-decompress)
 
+## agent skills
+
+- **[skill-greptile-init](https://github.com/yigitkonur/skill-greptile-init)** — generate `.greptile/` ai code review config tailored to your repo
+- **[skill-devin-review-init](https://github.com/yigitkonur/skill-devin-review-init)** — generate `REVIEW.md` and `AGENTS.md` for devin's bug catcher
+- **[skill-design-soul-saas](https://github.com/yigitkonur/skill-design-soul-saas)** — extract complete visual dna from any saas dashboard codebase
+- **[skill-snapshot-to-nextjs](https://github.com/yigitkonur/skill-snapshot-to-nextjs)** — convert saved html snapshots into pixel-perfect next.js projects
+
 ## writing & conferences
 
 - claude code — [auto-approve plans](https://blog.yigitkonur.com/auto-approve-claude-code-plan-mode-via-permissionrequest) · [ssh remote](https://blog.yigitkonur.com/using-claude-codes-new-native-ssh-remote-on-a-mac-mini-darwin) · [nfs vs smb](https://blog.yigitkonur.com/mac-to-mac-file-system-nfs-is-faster-than-native-smb-for-dev-env)
