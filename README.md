@@ -25,7 +25,7 @@ living in san francisco · been online since '97 · passionate for building AI t
 
 ## others
 
-- **mcp servers** — [research-powerpack](https://github.com/yigitkonur/mcp-research-powerpack) | [vibe-kanban](https://github.com/yigitkonur/mcp-better-vibe-kanban) | [latitude-prompts](https://github.com/yigitkonur/mcp-latitude-prompts) | [parasut](https://github.com/yigitkonur/mcp-parasut)
+- **mcp servers** — [research-powerpack](https://github.com/yigitkonur/mcp-research-powerpack) | [skills-as-context](https://github.com/yigitkonur/mcp-skills-as-context) | [vibe-kanban](https://github.com/yigitkonur/mcp-better-vibe-kanban) | [latitude-prompts](https://github.com/yigitkonur/mcp-latitude-prompts) | [parasut](https://github.com/yigitkonur/mcp-parasut)
 - **mcp reference implementations** — [stdio](https://github.com/yigitkonur/example-mcp-stdio) | [sse](https://github.com/yigitkonur/example-mcp-sse) | [stateless](https://github.com/yigitkonur/example-mcp-stateless) | [stateful](https://github.com/yigitkonur/example-mcp-stateful)
 - **cli & developer tools** — [repo-to-prompt](https://github.com/yigitkonur/cli-repo-to-prompt) | [pr-consensus](https://github.com/yigitkonur/cli-pr-consensus) | [hooks-claude-code](https://github.com/yigitkonur/hooks-claude-code)
 - **n8n tooling** — [cli](https://github.com/yigitkonur/n8n-cli) | [schema-generator](https://github.com/yigitkonur/n8n-schema-generator) | [workflow-validator](https://github.com/yigitkonur/n8n-workflow-validator) | [node-boilerplate](https://github.com/yigitkonur/n8n-node-boilerplate)
@@ -38,6 +38,7 @@ living in san francisco · been online since '97 · passionate for building AI t
 - **[skill-greptile-init](https://github.com/yigitkonur/skill-greptile-init)** — generate `.greptile/` ai code review config tailored to your repo
 - **[skill-devin-review-init](https://github.com/yigitkonur/skill-devin-review-init)** — generate `REVIEW.md` and `AGENTS.md` for devin's bug catcher
 - **[skill-design-soul-saas](https://github.com/yigitkonur/skill-design-soul-saas)** — extract complete visual dna from any saas dashboard codebase
+- **[skill-mcp-server-tester](https://github.com/yigitkonur/skill-mcp-server-tester)** — test mcp servers with protocol checks and llm-driven business case testing
 - **[skill-snapshot-to-nextjs](https://github.com/yigitkonur/skill-snapshot-to-nextjs)** — convert saved html snapshots into pixel-perfect next.js projects
 
 ## writing & conferences
