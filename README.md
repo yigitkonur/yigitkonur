@@ -4,6 +4,30 @@ living in san francisco · been online since '97 · passionate for building AI t
 
 [![twitter](https://img.shields.io/badge/-@yigitkonur-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/yigitkonur) [![linkedin](https://img.shields.io/badge/-yigit_konur-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yigitkonur/) [![github](https://img.shields.io/badge/-follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yigitkonur) [![blog](https://img.shields.io/badge/-blog-FF5722?style=flat-square&logo=hugo&logoColor=white)](https://blog.yigitkonur.com) [![youtube](https://img.shields.io/badge/-youtube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@yigitkonur)
 
+## 🤖 ai agents & orchestration
+
+- **[mcp-supersubagents](https://github.com/yigitkonur/mcp-supersubagents)** — mcp server for spawning and managing parallel ai agents — codex, copilot, claude backends with pat rotation
+- **[constellagent](https://github.com/yigitkonur/constellagent)** — desktop app for running multiple ai agents in parallel — each gets its own terminal, editor, and git worktree
+- **[cli-agent-toolkit](https://github.com/yigitkonur/cli-agent-toolkit)** — universal component manager for ai coding assistants — mcp servers, skills, agents, commands across 29 clients
+- **[agents-fleet](https://github.com/yigitkonur/agents-fleet)** — single source of truth for 152 ai agents across claude, copilot, codex, and droid
+- **[agents-claude](https://github.com/yigitkonur/agents-claude)** — 152 specialized claude code agents — ai/ml, coding (41 langs), planning, testing, reviewing, ops
+- **[agents-codex](https://github.com/yigitkonur/agents-codex)** — 152-agent codex fleet with matryoshka middleware, handoff system, and skills-as-context
+
+## 🔌 mcp servers
+
+- **[mcp-supersubagents](https://github.com/yigitkonur/mcp-supersubagents)** — parallel ai sub-agent orchestration with provider fallback chain
+- **[mcp-crash-think-tool](https://github.com/yigitkonur/mcp-crash-think-tool)** — cascaded reasoning with adaptive step handling (crash)
+- **[mcp-vibepowerpack](https://github.com/yigitkonur/mcp-vibepowerpack)** — interactive browser ui for ai assistants — radio buttons, checkboxes, multi-step wizards
+- **[mcp-better-vibe-kanban](https://github.com/yigitkonur/mcp-better-vibe-kanban)** — kanban board mcp server
+- **[mcp-parasut](https://github.com/yigitkonur/mcp-parasut)** — parasut accounting api via mcp
+- **mcp examples** — [sse](https://github.com/yigitkonur/example-mcp-sse) | [stateful](https://github.com/yigitkonur/example-mcp-stateful)
+
+## 🛠 agent skills
+
+14 skills for ai coding assistants, all in one repo — `npx skills add yigitkonur/skills-by-yigitkonur`
+
+**[skills-by-yigitkonur](https://github.com/yigitkonur/skills-by-yigitkonur)** — greptile config · devin review · copilot review · design extraction · mcp testing · playwright cli · supastarter · tauri devtools · snapshot-to-nextjs · research powerpack · planning · mcp-use · mcp-cli · mcp-apps-builder
+
 ## 🏗 systems & hardware
 
 - **[cli-fix-my-mic](https://github.com/yigitkonur/cli-fix-my-mic)** — stop airpods from stealing your mac's microphone — coreaudio daemon, zero cpu
@@ -13,10 +37,9 @@ living in san francisco · been online since '97 · passionate for building AI t
 - **[proxy-http-cache](https://github.com/yigitkonur/proxy-http-cache)** — transparent http cache proxy with redis — deduplicate api calls, save costs
 - **[tauri-plugin-key-intercept](https://github.com/yigitkonur/tauri-plugin-key-intercept)** — tauri plugin to intercept macos system shortcuts via cgeventtap
 
-## 🤖 ai & llm
+## 🤖 ai & llm tools
 
-- **[cli-continues](https://github.com/yigitkonur/cli-continues)** — resume any ai coding session in another tool — claude, copilot, cursor
-- **[cli-localize](https://github.com/yigitkonur/cli-localize)** —  agentic-optimized localization cli — srt, json, po, xml, arb with token-aware batching
+- **[cli-localize](https://github.com/yigitkonur/cli-localize)** — agentic-optimized localization cli — srt, json, po, xml, arb with token-aware batching
 - **[cli-subtitle-linter](https://github.com/yigitkonur/cli-subtitle-linter)** — netflix-compliant subtitle fixer — syllable-weighted timing, auto line balancing
 - **[cli-bulk-caller](https://github.com/yigitkonur/cli-bulk-caller)** — bulk outbound calls with automatic whisper transcription via telnyx
 - **[cli-finetune-dataset](https://github.com/yigitkonur/cli-finetune-dataset)** — weighted category-balanced dataset builder for llm fine-tuning
@@ -25,22 +48,11 @@ living in san francisco · been online since '97 · passionate for building AI t
 
 ## others
 
-- **mcp servers** — [research-powerpack](https://github.com/yigitkonur/mcp-research-powerpack) | [skills-as-context](https://github.com/yigitkonur/mcp-skills-as-context) | [vibe-kanban](https://github.com/yigitkonur/mcp-better-vibe-kanban) | [latitude-prompts](https://github.com/yigitkonur/mcp-latitude-prompts) | [parasut](https://github.com/yigitkonur/mcp-parasut)
-- **mcp reference implementations** — [stdio](https://github.com/yigitkonur/example-mcp-stdio) | [sse](https://github.com/yigitkonur/example-mcp-sse) | [stateless](https://github.com/yigitkonur/example-mcp-stateless) | [stateful](https://github.com/yigitkonur/example-mcp-stateful)
-- **cli & developer tools** — [repo-to-prompt](https://github.com/yigitkonur/cli-repo-to-prompt) | [pr-consensus](https://github.com/yigitkonur/cli-pr-consensus) | [hooks-claude-code](https://github.com/yigitkonur/hooks-claude-code) | [killport](https://github.com/yigitkonur/cli-killport) | [killapp](https://github.com/yigitkonur/cli-killapp)
-- **context** — [copilot agents](https://github.com/yigitkonur/agents-copilot) — 152 specialized agents for github copilot — orchestrator, super-agents, specialist overlays
+- **cli & developer tools** — [repo-to-prompt](https://github.com/yigitkonur/cli-repo-to-prompt) | [pr-consensus](https://github.com/yigitkonur/cli-pr-consensus) | [hooks-claude-code](https://github.com/yigitkonur/hooks-claude-code) | [killport](https://github.com/yigitkonur/cli-killport) | [killapp](https://github.com/yigitkonur/cli-killapp) | [scriptix](https://github.com/yigitkonur/cli-scriptix)
 - **n8n tooling** — [cli](https://github.com/yigitkonur/n8n-cli) | [schema-generator](https://github.com/yigitkonur/n8n-schema-generator) | [workflow-validator](https://github.com/yigitkonur/n8n-workflow-validator) | [node-boilerplate](https://github.com/yigitkonur/n8n-node-boilerplate)
 - **n8n nodes & workflows** — [craft nodes](https://github.com/yigitkonur/n8n-nodes-craft) | [latitude nodes](https://github.com/yigitkonur/n8n-nodes-latitude) | [craft workflows](https://github.com/yigitkonur/n8n-workflows-craft) | [ffmpeg-stack](https://github.com/yigitkonur/n8n-ffmpeg-stack)
 - **deno sdks** — [serper](https://github.com/yigitkonur/sdk-deno-serper) | [clado](https://github.com/yigitkonur/sdk-deno-clado) | [latitude](https://github.com/yigitkonur/sdk-deno-latitude) | [mem0](https://github.com/yigitkonur/sdk-deno-mem0)
 - **macos & infra** — [menubar-pin](https://github.com/yigitkonur/alfred-menubar-pin) | [dataflow-decompress](https://github.com/yigitkonur/cli-dataflow-decompress)
-
-## agent skills
-
-- **[skill-greptile-init](https://github.com/yigitkonur/skill-greptile-init)** — generate `.greptile/` ai code review config tailored to your repo
-- **[skill-devin-review-init](https://github.com/yigitkonur/skill-devin-review-init)** — generate `REVIEW.md` and `AGENTS.md` for devin's bug catcher
-- **[skill-design-soul-saas](https://github.com/yigitkonur/skill-design-soul-saas)** — extract complete visual dna from any saas dashboard codebase
-- **[skill-mcp-server-tester](https://github.com/yigitkonur/skill-mcp-server-tester)** — test mcp servers with protocol checks and llm-driven business case testing
-- **[skill-snapshot-to-nextjs](https://github.com/yigitkonur/skill-snapshot-to-nextjs)** — convert saved html snapshots into pixel-perfect next.js projects
 
 ## writing & conferences
 
