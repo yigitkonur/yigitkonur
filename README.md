@@ -83,7 +83,6 @@ sf-based, online since '97. i build a stupid amount of ai tooling — mostly cli
 | [native-shortcuts-herd](https://github.com/yigitkonur/native-shortcuts-herd) | make ghostty + herdr navigation feel native to macos |
 | [cmux-claude-code](https://github.com/yigitkonur/cmux-claude-code) · [cmux-codex](https://github.com/yigitkonur/cmux-codex) | cmux sidebar integrations — status pills, progress bars (claude code & codex) |
 | [ghostty-crt-shaders](https://github.com/yigitkonur/ghostty-crt-shaders) | crt phosphor shaders for ghostty — 11 colors × 3 readability tiers |
-| [agentic-ghostty](https://github.com/yigitkonur/agentic-ghostty) | fixed macos ghostty fork with vertical sidebar tabs |
 
 ## n8n & deno sdks
 
