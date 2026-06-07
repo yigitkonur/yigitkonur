@@ -58,6 +58,7 @@ sf-based, online since '97. i build a stupid amount of ai tooling — mostly cli
 | [cli-killport](https://github.com/yigitkonur/cli-killport) · [cli-killapp](https://github.com/yigitkonur/cli-killapp) | kill any process on a port, or any app by name — fuzzy, zero zombies |
 | [cli-scriptix](https://github.com/yigitkonur/cli-scriptix) | run community shell scripts from anywhere — zero dependencies |
 | [cli-dataflow-decompress](https://github.com/yigitkonur/cli-dataflow-decompress) | bulk-decompress files in gcs — apache beam pipeline |
+| [wayback-orchestrator](https://github.com/yigitkonur/wayback-orchestrator) | parallel wayback machine downloader — rotating proxy pool, fast |
 
 ## ai & llm tools
 
