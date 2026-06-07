@@ -42,6 +42,7 @@ living in san francisco · online since '97 · building AI tools
 | [skills-by-yigitkonur-secondary](https://github.com/yigitkonur/skills-by-yigitkonur-secondary) | the b-side pack — skills that don't fit the main vibe |
 | [claude-code-herdr-plugin](https://github.com/yigitkonur/claude-code-herdr-plugin) | drive a codex sub-agent end-to-end from claude code over a herdr pane |
 | [skill-cli-gpt-image](https://github.com/yigitkonur/skill-cli-gpt-image) | generate & edit images from your terminal using your local chatgpt login |
+| [agentshelf](https://github.com/yigitkonur/agentshelf) | zero-setup local web app to find, preview & copy ai agent skills |
 
 ## 🏗 cli, systems & hardware
 
