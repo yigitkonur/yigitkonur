@@ -1,10 +1,10 @@
 # hey, i'm yigit
 
-living in san francisco · online since '97 · building AI tools
+sf-based, online since '97. i build a stupid amount of ai tooling — mostly clis, mcp servers, and agent glue that makes coding agents less dumb.
 
-[![twitter](https://img.shields.io/badge/-@yigitkonur-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/yigitkonur) [![linkedin](https://img.shields.io/badge/-yigit_konur-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yigitkonur/) [![github](https://img.shields.io/badge/-follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yigitkonur) [![blog](https://img.shields.io/badge/-blog-FF5722?style=flat-square&logo=hugo&logoColor=white)](https://blog.yigitkonur.com) [![youtube](https://img.shields.io/badge/-youtube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@yigitkonur)
+[blog](https://blog.yigitkonur.com) · [x](https://x.com/yigitkonur) · [linkedin](https://www.linkedin.com/in/yigitkonur/)
 
-## ⭐ flagship
+## popular stuff
 
 | project | what it does | ★ |
 |---|---|---|
@@ -12,7 +12,7 @@ living in san francisco · online since '97 · building AI tools
 | [api-llm-ocr](https://github.com/yigitkonur/api-llm-ocr) | pdf → markdown with vision llms — tables, layouts, and structure preserved | 893 |
 | [cli-bulk-caller](https://github.com/yigitkonur/cli-bulk-caller) | bulk outbound calls with automatic whisper transcription via telnyx | 141 |
 
-## 🤖 ai agents & orchestration
+## ai agents & orchestration
 
 | project | what it does |
 |---|---|
@@ -23,7 +23,7 @@ living in san francisco · online since '97 · building AI tools
 | [agentsync](https://github.com/yigitkonur/agentsync) | sync AGENTS.md, skills, and ai-tool configs across your machines |
 | [cli-skill-downloader](https://github.com/yigitkonur/cli-skill-downloader) | bulk-download ai coding skills from playbooks.com into categories |
 
-## 🔌 mcp servers
+## mcp servers
 
 | project | what it does |
 |---|---|
@@ -34,7 +34,7 @@ living in san francisco · online since '97 · building AI tools
 | [mcp-parasut](https://github.com/yigitkonur/mcp-parasut) | unofficial paraşüt sdk + mcp server — turkish accounting, e-invoices |
 | [example-mcp-sse](https://github.com/yigitkonur/example-mcp-sse) · [example-mcp-stateful](https://github.com/yigitkonur/example-mcp-stateful) | reference mcp servers — sse transport, and redis-backed stateful sessions |
 
-## 🧩 agent skills
+## agent skills
 
 | project | what it does |
 |---|---|
@@ -44,7 +44,7 @@ living in san francisco · online since '97 · building AI tools
 | [skill-cli-gpt-image](https://github.com/yigitkonur/skill-cli-gpt-image) | generate & edit images from your terminal using your local chatgpt login |
 | [agentshelf](https://github.com/yigitkonur/agentshelf) | zero-setup local web app to find, preview & copy ai agent skills |
 
-## 🏗 cli, systems & hardware
+## cli, systems & hardware
 
 | project | what it does |
 |---|---|
@@ -59,7 +59,7 @@ living in san francisco · online since '97 · building AI tools
 | [cli-scriptix](https://github.com/yigitkonur/cli-scriptix) | run community shell scripts from anywhere — zero dependencies |
 | [cli-dataflow-decompress](https://github.com/yigitkonur/cli-dataflow-decompress) | bulk-decompress files in gcs — apache beam pipeline |
 
-## 🧠 ai & llm tools
+## ai & llm tools
 
 | project | what it does |
 |---|---|
@@ -72,7 +72,7 @@ living in san francisco · online since '97 · building AI tools
 | [cli-pr-consensus](https://github.com/yigitkonur/cli-pr-consensus) | unify ai code-review comments from one pr — copilot, coderabbit, devin |
 | [claude-usage-cli](https://github.com/yigitkonur/claude-usage-cli) | track multiple claude session keys from the cli and raycast |
 
-## 🖥 herdr / cmux / ghostty ecosystem
+## herdr / cmux / ghostty ecosystem
 
 | project | what it does |
 |---|---|
@@ -84,7 +84,7 @@ living in san francisco · online since '97 · building AI tools
 | [ghostty-crt-shaders](https://github.com/yigitkonur/ghostty-crt-shaders) | crt phosphor shaders for ghostty — 11 colors × 3 readability tiers |
 | [agentic-ghostty](https://github.com/yigitkonur/agentic-ghostty) | fixed macos ghostty fork with vertical sidebar tabs |
 
-## ⚙️ n8n & deno sdks
+## n8n & deno sdks
 
 | project | what it does |
 |---|---|
@@ -96,6 +96,6 @@ living in san francisco · online since '97 · building AI tools
 | [n8n-ffmpeg-stack](https://github.com/yigitkonur/n8n-ffmpeg-stack) | n8n with ffmpeg and caddy ssl — docker compose, ready to deploy |
 | deno sdks | [serper](https://github.com/yigitkonur/sdk-deno-serper) · [clado](https://github.com/yigitkonur/sdk-deno-clado) · [latitude](https://github.com/yigitkonur/sdk-deno-latitude) · [mem0](https://github.com/yigitkonur/sdk-deno-mem0) — type-safe, zero-dep deno clients |
 
-## links
+## talks
 
-[blog](https://blog.yigitkonur.com) | [twitter](https://twitter.com/yigitkonur) | [linkedin](https://www.linkedin.com/in/yigitkonur/) | [youtube](https://www.youtube.com/@yigitkonur) | talks: [clickhouse @ seo.do](https://clickhouse.com/videos/how-we-used-clickhouse-to-create-lightning-fast-experiences-at-seodo) · [claude + gpt tools '24](https://www.youtube.com/watch?v=a_OVqZlQT64) · [prompt engineering '24](https://www.youtube.com/watch?v=s876vM5SL_A) · [search'n stuff '25](https://www.youtube.com/@searchnstuff/videos) · [apis without code '17](https://www.youtube.com/watch?v=yEwMQ1LQXxk)
+[clickhouse @ seo.do](https://clickhouse.com/videos/how-we-used-clickhouse-to-create-lightning-fast-experiences-at-seodo) · [claude + gpt tools '24](https://www.youtube.com/watch?v=a_OVqZlQT64) · [prompt engineering '24](https://www.youtube.com/watch?v=s876vM5SL_A) · [search'n stuff '25](https://www.youtube.com/@searchnstuff/videos) · [apis without code '17](https://www.youtube.com/watch?v=yEwMQ1LQXxk)
