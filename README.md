@@ -1,67 +1,100 @@
 # hey, i'm yigit
 
-living in san francisco · been online since '97 · passionate for building AI tools
+living in san francisco · online since '97 · building AI tools
 
 [![twitter](https://img.shields.io/badge/-@yigitkonur-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/yigitkonur) [![linkedin](https://img.shields.io/badge/-yigit_konur-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yigitkonur/) [![github](https://img.shields.io/badge/-follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yigitkonur) [![blog](https://img.shields.io/badge/-blog-FF5722?style=flat-square&logo=hugo&logoColor=white)](https://blog.yigitkonur.com) [![youtube](https://img.shields.io/badge/-youtube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@yigitkonur)
 
+## ⭐ flagship
+
+| project | what it does | ★ |
+|---|---|---|
+| [cli-continues](https://github.com/yigitkonur/cli-continues) | resume any ai coding session in another tool — claude code, copilot, gemini | 1245 |
+| [api-llm-ocr](https://github.com/yigitkonur/api-llm-ocr) | pdf → markdown with vision llms — tables, layouts, and structure preserved | 893 |
+| [cli-bulk-caller](https://github.com/yigitkonur/cli-bulk-caller) | bulk outbound calls with automatic whisper transcription via telnyx | 141 |
+
 ## 🤖 ai agents & orchestration
 
-- **[mcp-supersubagents](https://github.com/yigitkonur/mcp-supersubagents)** — mcp server for spawning and managing parallel ai agents — codex, copilot, claude backends with pat rotation
-- **[constellagent](https://github.com/yigitkonur/constellagent)** — desktop app for running multiple ai agents in parallel — each gets its own terminal, editor, and git worktree
-- **[cli-agent-toolkit](https://github.com/yigitkonur/cli-agent-toolkit)** — universal component manager for ai coding assistants — mcp servers, skills, agents, commands across 29 clients
-- **[agents-fleet](https://github.com/yigitkonur/agents-fleet)** — single source of truth for 152 ai agents across claude, copilot, codex, and droid
-- **[agents-claude](https://github.com/yigitkonur/agents-claude)** — 152 specialized claude code agents — ai/ml, coding (41 langs), planning, testing, reviewing, ops
-- **[agents-codex](https://github.com/yigitkonur/agents-codex)** — 152-agent codex fleet with matryoshka middleware, handoff system, and skills-as-context
+| project | what it does |
+|---|---|
+| [mcp-supersubagents](https://github.com/yigitkonur/mcp-supersubagents) | mcp server for spawning & managing parallel ai agents with provider fallback |
+| [gossip](https://github.com/yigitkonur/gossip) | bidirectional bridge between claude code and codex cli — two agents, one task |
+| [copilot-agents](https://github.com/yigitkonur/copilot-agents) | production-grade cli for github copilot sdk agents — type-safe, parallel |
+| [codex-worker](https://github.com/yigitkonur/codex-worker) | daemon-backed codex app-server worker cli |
+| [agentsync](https://github.com/yigitkonur/agentsync) | sync AGENTS.md, skills, and ai-tool configs across your machines |
+| [cli-skill-downloader](https://github.com/yigitkonur/cli-skill-downloader) | bulk-download ai coding skills from playbooks.com into categories |
 
 ## 🔌 mcp servers
 
-- **[mcp-supersubagents](https://github.com/yigitkonur/mcp-supersubagents)** — parallel ai sub-agent orchestration with provider fallback chain
-- **[mcp-crash-think-tool](https://github.com/yigitkonur/mcp-crash-think-tool)** — cascaded reasoning with adaptive step handling (crash)
-- **[mcp-vibepowerpack](https://github.com/yigitkonur/mcp-vibepowerpack)** — interactive browser ui for ai assistants — radio buttons, checkboxes, multi-step wizards
-- **[mcp-better-vibe-kanban](https://github.com/yigitkonur/mcp-better-vibe-kanban)** — kanban board mcp server
-- **[mcp-parasut](https://github.com/yigitkonur/mcp-parasut)** — parasut accounting api via mcp
-- **mcp examples** — [sse](https://github.com/yigitkonur/example-mcp-sse) | [stateful](https://github.com/yigitkonur/example-mcp-stateful)
+| project | what it does |
+|---|---|
+| [mcp-researchpowerpack](https://github.com/yigitkonur/mcp-researchpowerpack) | http mcp research server — web search, reddit mining, scraping |
+| [mcp-better-vibe-kanban](https://github.com/yigitkonur/mcp-better-vibe-kanban) | manage vibe kanban tasks & sessions from your ai editor |
+| [mcp-delve-think-tool](https://github.com/yigitkonur/mcp-delve-think-tool) | a think tool that makes agents stop and question what they're doing |
+| [mcp-greasyfork-scripts](https://github.com/yigitkonur/mcp-greasyfork-scripts) | search greasy fork userscripts and fetch source as context |
+| [mcp-parasut](https://github.com/yigitkonur/mcp-parasut) | unofficial paraşüt sdk + mcp server — turkish accounting, e-invoices |
+| [example-mcp-sse](https://github.com/yigitkonur/example-mcp-sse) · [example-mcp-stateful](https://github.com/yigitkonur/example-mcp-stateful) | reference mcp servers — sse transport, and redis-backed stateful sessions |
 
-## 🛠 agent skills
+## 🧩 agent skills
 
-14 skills for ai coding assistants, all in one repo — `npx skills add yigitkonur/skills-by-yigitkonur`
+| project | what it does |
+|---|---|
+| [skills-by-yigitkonur](https://github.com/yigitkonur/skills-by-yigitkonur) | all my ai-agent skills in one pack — `npx skills add yigitkonur/skills-by-yigitkonur` |
+| [skills-by-yigitkonur-secondary](https://github.com/yigitkonur/skills-by-yigitkonur-secondary) | the b-side pack — skills that don't fit the main vibe |
+| [claude-code-herdr-plugin](https://github.com/yigitkonur/claude-code-herdr-plugin) | drive a codex sub-agent end-to-end from claude code over a herdr pane |
+| [skill-cli-gpt-image](https://github.com/yigitkonur/skill-cli-gpt-image) | generate & edit images from your terminal using your local chatgpt login |
 
-**[skills-by-yigitkonur](https://github.com/yigitkonur/skills-by-yigitkonur)** — greptile config · devin review · copilot review · design extraction · mcp testing · playwright cli · supastarter · tauri devtools · snapshot-to-nextjs · research powerpack · planning · mcp-use · mcp-cli · mcp-apps-builder
+## 🏗 cli, systems & hardware
 
-## 🏗 systems & hardware
+| project | what it does |
+|---|---|
+| [cli-fix-my-mic](https://github.com/yigitkonur/cli-fix-my-mic) | stop airpods from stealing your mac's microphone — coreaudio daemon, zero cpu |
+| [lib-osmo-ble](https://github.com/yigitkonur/lib-osmo-ble) | reverse-engineered ble protocol for the dji osmo pocket 3 — no app needed |
+| [cli-batch-requester](https://github.com/yigitkonur/cli-batch-requester) | 10k+ req/s batch api client for llm endpoints — rust, async, load-balanced |
+| [proxy-http-forward](https://github.com/yigitkonur/proxy-http-forward) | high-performance http/https forward proxy in go — fasthttp, no fingerprint |
+| [proxy-http-cache](https://github.com/yigitkonur/proxy-http-cache) | transparent http cache proxy with redis — dedupe api calls, save cost |
+| [tauri-plugin-key-intercept](https://github.com/yigitkonur/tauri-plugin-key-intercept) | tauri plugin to intercept macos system shortcuts via cgeventtap |
+| [cli-appletv](https://github.com/yigitkonur/cli-appletv) | apple tv remote from the terminal — full tui with d-pad, volume, apps |
+| [cli-killport](https://github.com/yigitkonur/cli-killport) · [cli-killapp](https://github.com/yigitkonur/cli-killapp) | kill any process on a port, or any app by name — fuzzy, zero zombies |
+| [cli-scriptix](https://github.com/yigitkonur/cli-scriptix) | run community shell scripts from anywhere — zero dependencies |
+| [cli-dataflow-decompress](https://github.com/yigitkonur/cli-dataflow-decompress) | bulk-decompress files in gcs — apache beam pipeline |
 
-- **[cli-fix-my-mic](https://github.com/yigitkonur/cli-fix-my-mic)** — stop airpods from stealing your mac's microphone — coreaudio daemon, zero cpu
-- **[lib-osmo-ble](https://github.com/yigitkonur/lib-osmo-ble)** — reverse-engineered dji osmo pocket 3 ble — duml binary protocol, gimbal control
-- **[cli-batch-requester](https://github.com/yigitkonur/cli-batch-requester)** — 10k+ req/s batch api client for llm endpoints — rust, async, load-balanced
-- **[proxy-http-forward](https://github.com/yigitkonur/proxy-http-forward)** — http/https forward proxy in go — fasthttp, prometheus, no fingerprint
-- **[proxy-http-cache](https://github.com/yigitkonur/proxy-http-cache)** — transparent http cache proxy with redis — deduplicate api calls, save costs
-- **[tauri-plugin-key-intercept](https://github.com/yigitkonur/tauri-plugin-key-intercept)** — tauri plugin to intercept macos system shortcuts via cgeventtap
+## 🧠 ai & llm tools
 
-## 🤖 ai & llm tools
+| project | what it does |
+|---|---|
+| [cli-repo-to-prompt](https://github.com/yigitkonur/cli-repo-to-prompt) | export any codebase to a single llm-ready markdown prompt |
+| [treezip](https://github.com/yigitkonur/treezip) | compressed directory trees for ai prompts — zero dependencies |
+| [cli-localize](https://github.com/yigitkonur/cli-localize) | ai localization cli — srt, json, po, xml, arb with token-aware batching |
+| [cli-subtitle-linter](https://github.com/yigitkonur/cli-subtitle-linter) | netflix-compliant subtitle fixer — syllable-weighted timing, line balancing |
+| [cli-finetune-dataset](https://github.com/yigitkonur/cli-finetune-dataset) | weighted, category-balanced dataset builder for llm fine-tuning |
+| [notebook-hdbscan](https://github.com/yigitkonur/notebook-hdbscan) | cluster text embeddings with dbscan/hdbscan — parameter sweep, excel export |
+| [cli-pr-consensus](https://github.com/yigitkonur/cli-pr-consensus) | unify ai code-review comments from one pr — copilot, coderabbit, devin |
+| [claude-usage-cli](https://github.com/yigitkonur/claude-usage-cli) | track multiple claude session keys from the cli and raycast |
 
-- **[cli-localize](https://github.com/yigitkonur/cli-localize)** — agentic-optimized localization cli — srt, json, po, xml, arb with token-aware batching
-- **[cli-subtitle-linter](https://github.com/yigitkonur/cli-subtitle-linter)** — netflix-compliant subtitle fixer — syllable-weighted timing, auto line balancing
-- **[cli-bulk-caller](https://github.com/yigitkonur/cli-bulk-caller)** — bulk outbound calls with automatic whisper transcription via telnyx
-- **[cli-finetune-dataset](https://github.com/yigitkonur/cli-finetune-dataset)** — weighted category-balanced dataset builder for llm fine-tuning
-- **[api-llm-ocr](https://github.com/yigitkonur/api-llm-ocr)** — pdf to markdown using vision llms — tables, layouts, and structure preserved
-- **[notebook-hdbscan](https://github.com/yigitkonur/notebook-hdbscan)** — cluster text embeddings with dbscan/hdbscan — parameter sweep, excel export
+## 🖥 herdr / cmux / ghostty ecosystem
 
-## others
+| project | what it does |
+|---|---|
+| [awesome-herdr](https://github.com/yigitkonur/awesome-herdr) | curated guide to the herdr ecosystem — tools, clients, configs |
+| [awesome-cmux](https://github.com/yigitkonur/awesome-cmux) | curated guide to the cmux ecosystem — 170+ community projects |
+| [awesome-webmcp](https://github.com/yigitkonur/awesome-webmcp) | curated list of webmcp resources — the new web standard for agents |
+| [native-shortcuts-herd](https://github.com/yigitkonur/native-shortcuts-herd) | make ghostty + herdr navigation feel native to macos |
+| [cmux-claude-code](https://github.com/yigitkonur/cmux-claude-code) · [cmux-codex](https://github.com/yigitkonur/cmux-codex) | cmux sidebar integrations — status pills, progress bars (claude code & codex) |
+| [ghostty-crt-shaders](https://github.com/yigitkonur/ghostty-crt-shaders) | crt phosphor shaders for ghostty — 11 colors × 3 readability tiers |
+| [agentic-ghostty](https://github.com/yigitkonur/agentic-ghostty) | fixed macos ghostty fork with vertical sidebar tabs |
 
-- **cli & developer tools** — [repo-to-prompt](https://github.com/yigitkonur/cli-repo-to-prompt) | [pr-consensus](https://github.com/yigitkonur/cli-pr-consensus) | [hooks-claude-code](https://github.com/yigitkonur/hooks-claude-code) | [killport](https://github.com/yigitkonur/cli-killport) | [killapp](https://github.com/yigitkonur/cli-killapp) | [scriptix](https://github.com/yigitkonur/cli-scriptix)
-- **n8n tooling** — [cli](https://github.com/yigitkonur/n8n-cli) | [schema-generator](https://github.com/yigitkonur/n8n-schema-generator) | [workflow-validator](https://github.com/yigitkonur/n8n-workflow-validator) | [node-boilerplate](https://github.com/yigitkonur/n8n-node-boilerplate)
-- **n8n nodes & workflows** — [craft nodes](https://github.com/yigitkonur/n8n-nodes-craft) | [latitude nodes](https://github.com/yigitkonur/n8n-nodes-latitude) | [craft workflows](https://github.com/yigitkonur/n8n-workflows-craft) | [ffmpeg-stack](https://github.com/yigitkonur/n8n-ffmpeg-stack)
-- **deno sdks** — [serper](https://github.com/yigitkonur/sdk-deno-serper) | [clado](https://github.com/yigitkonur/sdk-deno-clado) | [latitude](https://github.com/yigitkonur/sdk-deno-latitude) | [mem0](https://github.com/yigitkonur/sdk-deno-mem0)
-- **macos & infra** — [menubar-pin](https://github.com/yigitkonur/alfred-menubar-pin) | [dataflow-decompress](https://github.com/yigitkonur/cli-dataflow-decompress)
+## ⚙️ n8n & deno sdks
 
-## writing & conferences
+| project | what it does |
+|---|---|
+| [n8n-cli](https://github.com/yigitkonur/n8n-cli) | full cli for n8n — manage, validate, diff, and audit workflows |
+| [n8n-schema-generator](https://github.com/yigitkonur/n8n-schema-generator) · [n8n-workflow-validator](https://github.com/yigitkonur/n8n-workflow-validator) | auto-generated json schemas for every node, and engine-accurate validation |
+| [n8n-node-boilerplate](https://github.com/yigitkonur/n8n-node-boilerplate) | ai-optimized starter kit for building n8n community nodes |
+| [n8n-nodes-craft](https://github.com/yigitkonur/n8n-nodes-craft) · [n8n-workflows-craft](https://github.com/yigitkonur/n8n-workflows-craft) | craft docs nodes + 42 ready workflows (ai, rag, analytics) |
+| [n8n-nodes-latitude](https://github.com/yigitkonur/n8n-nodes-latitude) | n8n node for latitude.so — run prompts, chat, log conversations |
+| [n8n-ffmpeg-stack](https://github.com/yigitkonur/n8n-ffmpeg-stack) | n8n with ffmpeg and caddy ssl — docker compose, ready to deploy |
+| deno sdks | [serper](https://github.com/yigitkonur/sdk-deno-serper) · [clado](https://github.com/yigitkonur/sdk-deno-clado) · [latitude](https://github.com/yigitkonur/sdk-deno-latitude) · [mem0](https://github.com/yigitkonur/sdk-deno-mem0) — type-safe, zero-dep deno clients |
 
-- claude code — [auto-approve plans](https://blog.yigitkonur.com/auto-approve-claude-code-plan-mode-via-permissionrequest) · [ssh remote](https://blog.yigitkonur.com/using-claude-codes-new-native-ssh-remote-on-a-mac-mini-darwin) · [nfs vs smb](https://blog.yigitkonur.com/mac-to-mac-file-system-nfs-is-faster-than-native-smb-for-dev-env)
-- research — [awesome-webmcp](https://github.com/webmcpnet/awesome-webmcp/) · [yandex factors](https://www.reddit.com/r/TechSEO/comments/10neprk/yandex_ranking_factors_are_leaked_spreadsheet/) · [n8n system prompt](https://www.reddit.com/r/n8n/comments/1huce7n/teach_your_ai_to_use_n8n_code_node_js_expressions/) · [clickhouse benchmark](https://benchmark.clickhouse.com/)
-- projects — [atatürk 4k](https://x.com/yigitkonur/status/1718687991248335045) · [keyboard handbook](https://www.reddit.com/r/MechanicalKeyboards/comments/15dol50/the_mechanical_keyboard_enthusiasts_handbook_a/) · [who is yigit?](https://blog.yigitkonur.com/yo-who-even-is-yigit)
-- [clickhouse](https://clickhouse.com/videos/how-we-used-clickhouse-to-create-lightning-fast-experiences-at-seodo) — clickhouse at seo.do
-- digitalzone istanbul — [claude + gpt tools](https://www.youtube.com/watch?v=a_OVqZlQT64) '24 · [ai working culture](https://www.youtube.com/watch?v=dMb1q6yyTW4) '23 · [prompt engineering](https://www.youtube.com/watch?v=11GoGouBY2Q) '23 · [gpt api automation](https://www.youtube.com/watch?v=Zwv1BFW2nQ0) '23 · [bigquery at scale](https://www.youtube.com/watch?v=y8On1RaT6Y4) '21 · [ml for search](https://www.youtube.com/watch?v=fv5wO9Ue7mo) '18 · [measuring digital](https://www.youtube.com/watch?v=HhrA9Me8JAQ) '16
-- search'n stuff antalya — [panel discussion](https://www.youtube.com/@searchnstuff/videos) '25 · [sonnet artifacts](https://www.youtube.com/playlist?list=PL5WYuC1ob3wCbOGJqUQilOCoHs_7qb3px) '24
-- [brick institute](https://www.youtube.com/watch?v=s876vM5SL_A) — prompt engineering '24
-- consultancy days — [ai for e-commerce](https://www.youtube.com/watch?v=TX0PIL9TIOs) '23 · [search console](https://www.youtube.com/watch?v=Ou59MaqlmUM) '19 · [seo & ppc](https://www.youtube.com/watch?v=dbNfqayHkV8) '17
-- [brightonseo london](https://www.youtube.com/watch?v=yEwMQ1LQXxk) — apis without code '17
+## links
+
+[blog](https://blog.yigitkonur.com) | [twitter](https://twitter.com/yigitkonur) | [linkedin](https://www.linkedin.com/in/yigitkonur/) | [youtube](https://www.youtube.com/@yigitkonur) | talks: [clickhouse @ seo.do](https://clickhouse.com/videos/how-we-used-clickhouse-to-create-lightning-fast-experiences-at-seodo) · [claude + gpt tools '24](https://www.youtube.com/watch?v=a_OVqZlQT64) · [prompt engineering '24](https://www.youtube.com/watch?v=s876vM5SL_A) · [search'n stuff '25](https://www.youtube.com/@searchnstuff/videos) · [apis without code '17](https://www.youtube.com/watch?v=yEwMQ1LQXxk)
