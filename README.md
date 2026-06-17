@@ -8,7 +8,7 @@ sf-based, online since '97. i build a stupid amount of ai tooling — mostly cli
 
 | project | what it does | ★ |
 |---|---|---|
-| [cli-continues](https://github.com/yigitkonur/cli-continues) | resume any ai coding session in another tool — claude code, copilot, gemini | 1270 |
+| [cli-continues](https://github.com/yigitkonur/cli-continues) | resume any ai coding session in another tool — claude code, copilot, gemini | 1271 |
 | [api-llm-ocr](https://github.com/yigitkonur/api-llm-ocr) | pdf → markdown with vision llms — tables, layouts, and structure preserved | 895 |
 | [cli-bulk-caller](https://github.com/yigitkonur/cli-bulk-caller) | bulk outbound calls with automatic whisper transcription via telnyx | 142 |
 
